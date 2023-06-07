@@ -6,6 +6,13 @@ const Footer = () => {
             <div>
                 <footer className="footer p-10 bg-base-300 text-base-content">
                     <div>
+                        <h2 className="text-xl font-bold">Summer camp Photography</h2>
+                        <p>Address: </p>
+                        <p>(570) 588-6842</p>
+                        <p>139 Old Oak Rd</p>
+                        <p> Warwick, New York(NY), 10990</p>
+                    </div>
+                    <div>
                         <span className="footer-title">Services</span>
                         <a className="link link-hover">Branding</a>
                         <a className="link link-hover">Design</a>
