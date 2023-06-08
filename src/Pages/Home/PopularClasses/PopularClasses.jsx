@@ -8,10 +8,19 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
+import imgTokyo from '../../../assets/Images/Home/PopularClasses/tokyo photography.webp'
+import imgNature from '../../../assets/Images/Home/PopularClasses/nature.jpg'
+import imgDistance from '../../../assets/Images/Home/PopularClasses/long distance.jpg'
+import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
+
 
 const PopularClasses = () => {
     return (
-        <div>
+        <section>
+            <SectionTitle
+            heading={"Popular Classes"}
+            subHeading={"Join our popular photography classes and embark on an inspiring journey to capture the world through your lens, from stunning landscapes to captivating portraits."}
+            ></SectionTitle>
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -22,7 +31,9 @@ const PopularClasses = () => {
                 modules={[FreeMode, Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>
+                    <img src='' alt="" />
+                </SwiperSlide>
                 <SwiperSlide>Slide 2</SwiperSlide>
                 <SwiperSlide>Slide 3</SwiperSlide>
                 <SwiperSlide>Slide 4</SwiperSlide>
@@ -32,7 +43,7 @@ const PopularClasses = () => {
                 <SwiperSlide>Slide 8</SwiperSlide>
                 <SwiperSlide>Slide 9</SwiperSlide>
             </Swiper>
-        </div>
+        </section>
     );
 };
 
