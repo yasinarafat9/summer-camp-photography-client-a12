@@ -16,6 +16,8 @@ const PopularInstructors = () => {
                 heading={"Popular Instructors"}
                 subHeading={"Discover the secrets of the trade from our popular photography instructors, who bring a wealth of expertise, artistic vision, and a passion for teaching to every class."}
             ></SectionTitle>
+            
+            {/* TODO */}
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}

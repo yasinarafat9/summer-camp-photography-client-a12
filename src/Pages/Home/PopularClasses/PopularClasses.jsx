@@ -32,6 +32,8 @@ const PopularClasses = () => {
                 heading={"Popular Classes"}
                 subHeading={"Join our popular photography classes and embark on an inspiring journey to capture the world through your lens, from stunning landscapes to captivating portraits."}
             ></SectionTitle>
+
+            {/* TODO */}
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
