@@ -1,19 +1,19 @@
 import { NavLink } from "react-router-dom";
-
+import './Navbar.css'
 
 const Navbar = () => {
     const navOptions = <>
-        <li className="px-3 font-semibold text-black"><NavLink to=''>Home</NavLink> </li>
-        <li className="px-3 font-semibold text-black"><NavLink to=''>Instructors</NavLink> </li>
-        <li className="px-3 font-semibold text-black"><NavLink to=''>Classes</NavLink> </li>
-        <li className="px-3 font-semibold text-black"><NavLink to=''>Dashboard</NavLink> </li>
+        <NavLink  className="p-3 font-semibold text-black" to=''>Home</NavLink>
+        <NavLink  className="p-3 font-semibold text-black" to=''>Instructors</NavLink>
+        <NavLink  className="p-3 font-semibold text-black" to=''>Classes</NavLink>
+        <NavLink  className="p-3 font-semibold text-black" to=''>Dashboard</NavLink>
 
     </>
 
 
     return (
         <div>
-            <div className="navbar fixed z-10 bg-opacity-30 bg-base-100">
+            <div className="navbar fixed z-10 bg-opacity-30 bg-base-100 max-w-screen-xl mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
