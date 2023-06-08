@@ -2,8 +2,11 @@
 
 const Navbar = () => {
     const navOptions = <>
-        <li>Blog</li>
-        <li className="mx-5">Blog2</li>
+        <li>Home</li>
+        <li>Instructors</li>
+        <li>Classes </li>
+        <li>Dashboard </li>
+        
     </>
 
 
