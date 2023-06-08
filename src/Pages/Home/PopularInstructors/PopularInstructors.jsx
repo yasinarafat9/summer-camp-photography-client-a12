@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { FreeMode, Pagination } from "swiper";
@@ -7,30 +7,14 @@ import { FreeMode, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-
-import imgTokyo from '../../../assets/Images/Home/PopularClasses/tokyo photography.webp'
-import imgNature from '../../../assets/Images/Home/PopularClasses/nature.jpg'
-import imgDistance from '../../../assets/Images/Home/PopularClasses/long distance.jpg'
 import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
-import { data } from "autoprefixer";
 
-
-const PopularClasses = () => {
-    // const [classes, setClasses] = useState([])
-    // useEffect(() => {
-    //     fetch('classes.json')
-    //     .then(res => res.json())
-    //     .then(data ={
-    //         const popularClass = data.filter(class => class.category === 'popular');
-    //         setMenu(popularClass)
-    //     })
-    // }, [])
-
+const PopularInstructors = () => {
     return (
         <section>
             <SectionTitle
-                heading={"Popular Classes"}
-                subHeading={"Join our popular photography classes and embark on an inspiring journey to capture the world through your lens, from stunning landscapes to captivating portraits."}
+                heading={"Popular Instructors"}
+                subHeading={"Discover the secrets of the trade from our popular photography instructors, who bring a wealth of expertise, artistic vision, and a passion for teaching to every class."}
             ></SectionTitle>
             <Swiper
                 slidesPerView={3}
@@ -58,4 +42,4 @@ const PopularClasses = () => {
     );
 };
 
-export default PopularClasses;
+export default PopularInstructors;
