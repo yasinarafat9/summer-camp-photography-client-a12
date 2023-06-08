@@ -6,8 +6,17 @@ import { Navigation } from "swiper";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import { useEffect } from "react";
 
 const StudentsFeedback = () => {
+
+    const [reviews, setReviews] = useState([]);
+
+    // useEffect(() => {
+    //     fetch('reviews')
+    // },[])
+
+
     return (
         <section>
             <SectionTitle
