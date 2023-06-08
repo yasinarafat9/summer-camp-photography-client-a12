@@ -1,18 +1,19 @@
+import { NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
     const navOptions = <>
-        <li>Home</li>
-        <li>Instructors</li>
-        <li>Classes </li>
-        <li>Dashboard </li>
-        
+        <li className="px-3 font-semibold text-black"><NavLink to=''>Home</NavLink> </li>
+        <li className="px-3 font-semibold text-black"><NavLink to=''>Instructors</NavLink> </li>
+        <li className="px-3 font-semibold text-black"><NavLink to=''>Classes</NavLink> </li>
+        <li className="px-3 font-semibold text-black"><NavLink to=''>Dashboard</NavLink> </li>
+
     </>
 
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar fixed z-10 bg-opacity-30 bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    {/* <a className="btn">Button</a> */}
                 </div>
             </div>
         </div>
