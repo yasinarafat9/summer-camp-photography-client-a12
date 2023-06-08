@@ -1,0 +1,182 @@
+[
+    {
+        "course_name": "Introduction to Photography",
+        "instructor_name": "John Smith",
+        "students_joined": 50,
+        "rating": 4.5,
+        "course_img": "https://shotkit.com/wp-content/uploads/2021/02/Lindy_clarbull_shotkit_01.jpg",
+        "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
+        "category": "populer"
+    },
+    {
+        "course_name": "Landscape Photography Masterclass",
+        "instructor_name": "Emily Johnson",
+        "students_joined": 35,
+        "rating": 4.8,
+        "course_img": "https://www.thesprucecrafts.com/thmb/Q1RLk1zMtF2YswaCkXoIEtrpX4I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/introduction-to-photography-tips-for-beginners-2688546-hero-3617237b296e4832ad04bbf107f1f6b3.jpg",
+        "instructor_img": "https://www.deltapsychology.ca/wp-content/uploads/Emily-Johnson.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Portrait Photography Techniques",
+        "instructor_name": "Michael Davis",
+        "students_joined": 28,
+        "rating": 4.7,
+        "course_img": "https://images.squarespace-cdn.com/content/v1/5a3bb03b4c326d76de73ddaa/1613133428233-NEPK9JBTH4M4QSQ0VN9F/The+Common+Wanderer-5244.jpg?format=1000w",
+        "instructor_img": "https://m.media-amazon.com/images/S/amzn-author-media-prod/2ni0vf11ot8vgbkap7oiee209o._SX450_.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Advanced Lighting for Photographers",
+        "instructor_name": "Niko Ronaldo",
+        "students_joined": 20,
+        "rating": 4.9,
+        "course_img": "https://dvyvvujm9h0uq.cloudfront.net/com/articles/1562594084-79606-alexander-dummer-as4duj2j7r4-unsplashjpg.jpg",
+        "instructor_img": "https://cloudfront.slrlounge.com/wp-content/uploads/2019/03/brightrim-3-point-dramatic-advanced-flash-photography-lighting.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Street Photography 101",
+        "instructor_name": "Alex Rodriguez",
+        "students_joined": 42,
+        "rating": 4.6,
+        "course_img": "https://i.ytimg.com/vi/8Q5ZqfNxXnU/maxresdefault.jpg",
+        "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
+        "category": "populer"
+    },
+    {
+        "course_name": "Nature and Wildlife Photography",
+        "instructor_name": "Robert Johnson",
+        "students_joined": 31,
+        "rating": 4.7,
+        "course_img": "https://cdn-files.cloud/wp-content/blogs.dir/94/files/2015/08/Content_portraits_tip1-1024x731.jpg",
+        "instructor_img": "https://i1.sndcdn.com/artworks-ZGTFY5Uqm4olf3LG-ow8YZA-t500x500.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Fashion Photography Masterclass",
+        "instructor_name": "David Wilson",
+        "students_joined": 18,
+        "rating": 4.9,
+        "course_img": "https://media.istockphoto.com/id/1293366109/photo/this-one-match-perfect-with-me.jpg?s=612x612&w=0&k=20&c=wJ6yYbRrDfdmoViuQkX39s2z_0lCiNQYgEtLU--0EbY=",
+        "instructor_img": "https://static.wixstatic.com/media/ac5d9b_07f9348f66574724af087ad4fa10012b~mv2.jpeg/v1/fill/w_537,h_675,al_c,q_85,enc_auto/ac5d9b_07f9348f66574724af087ad4fa10012b~mv2.jpeg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Travel Photography Essentials",
+        "instructor_name": "Harried Hangry",
+        "students_joined": 25,
+        "rating": 4.5,
+        "course_img": "https://images.unsplash.com/photo-1579504344957-c09070053c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwcGhvdG9ncmFwaHl8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Black and White Photography",
+        "instructor_name": "Robert Johnson",
+        "students_joined": 15,
+        "rating": 4.4,
+        "course_img": "https://cdn.lynda.com/course/80300/80300-636477320151735632-16x9.jpg",
+        "instructor_img": "https://cdn-files.cloud/wp-content/blogs.dir/94/files/2015/08/Content_portraits_tip1-1024x731.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Product Photography Made Easy",
+        "instructor_name": "Olivia Martin",
+        "students_joined": 23,
+        "rating": 4.7,
+        "course_img": "https://gulfphotoplus.com/images/workshopsnew/121-1.jpg",
+        "instructor_img": "https://mediaslide-us.storage.googleapis.com/heroes/pictures/574/9421/large-1659547622-ad158676cafd05570fe8d7a90f9cfb8d.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Architectural Photography Techniques",
+        "instructor_name": "Andrew Thompson",
+        "students_joined": 37,
+        "rating": 4.8,
+        "course_img": "https://www.colesclassroom.com/wp-content/uploads/2017/11/ARCHITECTURAL-7-of-7.jpg",
+        "instructor_img": "https://m.media-amazon.com/images/M/MV5BODEwMTEzYzMtZTA1Yy00OTdiLWI5MWItNjkzYWQ5ZTUzZTIzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Studio Lighting for Portraits",
+        "instructor_name": "Michelle Roberts",
+        "students_joined": 29,
+        "rating": 4.6,
+        "course_img": "https://www.rangefinderonline.com/static/content_images/Brian_2015_0151.jpg",
+        "instructor_img": "https://www.dukehealth.org/sites/default/files/styles/doctor_profile/public/physician/michelle-roberts-pt-dpt-atc-lat.JPG?itok=8v0jh4AY",
+        "category": "populer"
+    },
+    {
+        "course_name": "Photo Editing with Adobe Lightroom",
+        "instructor_name": "John Smith",
+        "students_joined": 46,
+        "rating": 4.9,
+        "course_img": "https://www.objetivovalencia.es/wp-content/uploads/capture-one-vs-lightroom31.jpg",
+        "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
+        "category": "populer"
+    },
+    {
+        "course_name": "Macro Photography Workshop",
+        "instructor_name": "John Smith",
+        "students_joined": 19,
+        "rating": 4.7,
+        "course_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHMin8k0QxgJfZWolwVxGnQc80j0v1JMvjA&usqp=CAU",
+        "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
+        "category": "populer"
+    },
+    {
+        "course_name": "Wedding Photography Fundamentals",
+        "instructor_name": "John Smith",
+        "students_joined": 33,
+        "rating": 4.8,
+        "course_img": "https://drscdn.500px.org/photo/1001269654/m%3D900/v2?sig=c9680965f252626a99c47286ec1ea64a094a0f8084bf8e5cc0b4cd1fbd267462",
+        "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
+        "category": "populer"
+    },
+    {
+        "course_name": "Night Photography: Capturing the Stars",
+        "instructor_name": "Alex Rodriguez",
+        "students_joined": 21,
+        "rating": 4.6,
+        "course_img": "https://www.wilderness.org/sites/default/files/styles/1200x630/public/media/image/AZ_VermillionCliffs_NM_ZachBright_R_180726_01_1.jpg?h=78aab1d8&itok=m3fIKkGI",
+        "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
+        "category": "populer"
+    },
+    {
+        "course_name": "Documentary Photography: Telling Stories through Images",
+        "instructor_name": "Alex Rodriguez",
+        "students_joined": 27,
+        "rating": 4.7,
+        "course_img": "https://www.lightstalking.com/wp-content/uploads/Photo-by-Dmitry-Ratushny-on-Unsplash.jpg",
+        "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
+        "category": "populer"
+    },
+    {
+        "course_name": "Mobile Photography: Mastering Smartphone Cameras",
+        "instructor_name": "Alex Rodriguez",
+        "students_joined": 39,
+        "rating": 4.5,
+        "course_img": "https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/Smartphone-photography-valentin-antonucci.jpg",
+        "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
+        "category": "populer"
+    },
+    {
+        "course_name": "Wildlife Photography Expedition",
+        "instructor_name": "Harried Hangry",
+        "students_joined": 24,
+        "rating": 4.9,
+        "course_img": "https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX46685274.jpg",
+        "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
+        "category": "populer"
+    },
+    {
+        "course_name": "Artistic Photography: Exploring Creative Vision",
+        "instructor_name": "Harried Hangry",
+        "students_joined": 16,
+        "rating": 4.3,
+        "course_img": "https://img.particlenews.com/img/id/4ZAgVG_0lHBOEWQ00?type=thumbnail_1600x1200",
+        "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
+        "category": "populer"
+    }
+]
