@@ -16,6 +16,9 @@
     font-weight: bold;
     border-radius: 10px;
 }
+.text-green{
+    color: gree;
+}
 
 .card-img{
     width: 400px;

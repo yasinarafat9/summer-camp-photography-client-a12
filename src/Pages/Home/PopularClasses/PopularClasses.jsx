@@ -51,7 +51,7 @@ const PopularClasses = () => {
                                 <div className="card-body">
                                     <h2 className="card-title">{pCourse.course_name}</h2>
                                     <p className="font-semibold">Students Joined: {pCourse.students_joined}</p>
-                                   
+                                   <h4 className="text-2xl font-bold text-green">Price: {pCourse.price}</h4>
                                     <div className="card-actions d-flex justify-between items-center">
 
                                         <img className="icon-img" src={pCourse.instructor_img} alt="" />
