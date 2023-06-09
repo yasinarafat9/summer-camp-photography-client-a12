@@ -20,17 +20,6 @@ const PopularClasses = () => {
     const [classes] = useClasses();
     const popular = classes.filter(course => course.category === 'popular')
 
-
-    // const [classes, setClasses] = useState([])
-    // useEffect(() => {
-    //     fetch('classes.json')
-    //     .then(res => res.json())
-    //     .then(data ={
-    //         const popularClass = data.filter(class => class.category === 'popular');
-    //         setMenu(popularClass)
-    //     })
-    // }, [])
-
     return (
         <section>
             <SectionTitle
@@ -58,15 +47,16 @@ const PopularClasses = () => {
                         <div className="mx-auto">
                             {/* CARD */}
                             <div className="card card-compact w-96 bg-base-100 shadow-xl">
-                                <figure><img src={pCourse.course_img} alt="Shoes" /></figure>
+                                <figure>< img className="card-img" src={pCourse.course_img} alt="Shoes" /></figure>
                                 <div className="card-body">
                                     <h2 className="card-title">{pCourse.course_name}</h2>
                                     <p className="font-semibold">Students Joined: {pCourse.students_joined}</p>
+                                   
                                     <div className="card-actions d-flex justify-between items-center">
-                    
-                                            <img className="icon-img" src={pCourse.instructor_img} alt="" />
-                                            <p className="font-semibold"> BY: {pCourse.instructor_name}</p>
-                                    
+
+                                        <img className="icon-img" src={pCourse.instructor_img} alt="" />
+                                        <p className="font-semibold"> BY: {pCourse.instructor_name}</p>
+
                                         <button className="btn-green">View Course</button>
                                     </div>
                                 </div>
