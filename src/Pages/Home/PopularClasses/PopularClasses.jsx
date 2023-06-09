@@ -40,8 +40,8 @@ const PopularClasses = () => {
             >
 
                 {
-                    popular.map((pCourse, index) => <SwiperSlide
-                        key={index}
+                    popular.map(pCourse => <SwiperSlide
+                        key={pCourse._id}
                         pCourse={pCourse}
                     >
                         <div className="mx-auto">

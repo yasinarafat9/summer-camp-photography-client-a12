@@ -8,7 +8,7 @@
         "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
         "category": "popular",
         "price": 25.99,
-        "avalable-seats": 34
+        "avalable_seats": 34
     },
     {
         "course_name": "Landscape Photography Masterclass",
@@ -19,7 +19,7 @@
         "instructor_img": "https://www.deltapsychology.ca/wp-content/uploads/Emily-Johnson.jpg",
         "category": "popular",
         "price": 45.99,
-        "avalable-seats": 32
+        "avalable_seats": 32
     },
     {
         "course_name": "Portrait Photography Techniques",
@@ -30,7 +30,7 @@
         "instructor_img": "https://m.media-amazon.com/images/S/amzn-author-media-prod/2ni0vf11ot8vgbkap7oiee209o._SX450_.jpg",
         "category": "popular",
         "price": 29.99,
-        "avalable-seats": 3
+        "avalable_seats": 3
     },
     {
         "course_name": "Advanced Lighting for Photographers",
@@ -41,7 +41,7 @@
         "instructor_img": "https://cloudfront.slrlounge.com/wp-content/uploads/2019/03/brightrim-3-point-dramatic-advanced-flash-photography-lighting.jpg",
         "category": "popular",
         "price": 22.99,
-        "avalable-seats": 89
+        "avalable_seats": 89
     },
     {
         "course_name": "Street Photography 101",
@@ -52,7 +52,7 @@
         "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
         "category": "popular",
         "price": 20.45,
-        "avalable-seats": 0
+        "avalable_seats": 0
     },
     {
         "course_name": "Nature and Wildlife Photography",
@@ -63,7 +63,7 @@
         "instructor_img": "https://i1.sndcdn.com/artworks-ZGTFY5Uqm4olf3LG-ow8YZA-t500x500.jpg",
         "category": "popular",
         "price": 25.99,
-        "avalable-seats": 34
+        "avalable_seats": 34
     },
     {
         "course_name": "Fashion Photography Masterclass",
@@ -74,7 +74,7 @@
         "instructor_img": "https://static.wixstatic.com/media/ac5d9b_07f9348f66574724af087ad4fa10012b~mv2.jpeg/v1/fill/w_537,h_675,al_c,q_85,enc_auto/ac5d9b_07f9348f66574724af087ad4fa10012b~mv2.jpeg",
         "category": "popular",
         "price": 56.99,
-        "avalable-seats": 0
+        "avalable_seats": 0
     },
     {
         "course_name": "Travel Photography Essentials",
@@ -85,7 +85,7 @@
         "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
         "category": "popular",
         "price": 40.99,
-        "avalable-seats": 98
+        "avalable_seats": 98
     },
     {
         "course_name": "Black and White Photography",
@@ -96,7 +96,7 @@
         "instructor_img": "https://cdn-files.cloud/wp-content/blogs.dir/94/files/2015/08/Content_portraits_tip1-1024x731.jpg",
         "category": "popular",
         "price": 89.99,
-        "avalable-seats": 200
+        "avalable_seats": 200
     },
     {
         "course_name": "Product Photography Made Easy",
@@ -107,7 +107,7 @@
         "instructor_img": "https://mediaslide-us.storage.googleapis.com/heroes/pictures/574/9421/large-1659547622-ad158676cafd05570fe8d7a90f9cfb8d.jpg",
         "category": "popular",
         "price": 12.99,
-        "avalable-seats": 0
+        "avalable_seats": 0
     },
     {
         "course_name": "Architectural Photography Techniques",
@@ -118,7 +118,7 @@
         "instructor_img": "https://m.media-amazon.com/images/M/MV5BODEwMTEzYzMtZTA1Yy00OTdiLWI5MWItNjkzYWQ5ZTUzZTIzXkEyXkFqcGdeQXVyMjQwMDg0Ng@@._V1_.jpg",
         "category": "popular",
         "price": 89.99,
-        "avalable-seats": 75
+        "avalable_seats": 75
     },
     {
         "course_name": "Studio Lighting for Portraits",
@@ -129,7 +129,7 @@
         "instructor_img": "https://www.dukehealth.org/sites/default/files/styles/doctor_profile/public/physician/michelle-roberts-pt-dpt-atc-lat.JPG?itok=8v0jh4AY",
         "category": "popular",
         "price": 34.99,
-        "avalable-seats": 45
+        "avalable_seats": 45
     },
     {
         "course_name": "Photo Editing with Adobe Lightroom",
@@ -140,7 +140,7 @@
         "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
         "category": "popular",
         "price": 23.99,
-        "avalable-seats": 0
+        "avalable_seats": 0
     },
     {
         "course_name": "Macro Photography Workshop",
@@ -151,7 +151,7 @@
         "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
         "category": "popular",
         "price": 45.99,
-        "avalable-seats": 5
+        "avalable_seats": 5
     },
     {
         "course_name": "Wedding Photography Fundamentals",
@@ -162,7 +162,7 @@
         "instructor_img": "https://images.squarespace-cdn.com/content/v1/5b23eafbcef3728821dfb462/1616699983908-5PPXBFSPNLWKZKV5GX8T/John%2BSmith%2Bby%2BElly%2BLucas%2B%2827%29ii.jpg?format=500w",
         "category": "popular",
         "price": 55.99,
-        "avalable-seats": 7
+        "avalable_seats": 7
     },
     {
         "course_name": "Night Photography: Capturing the Stars",
@@ -173,7 +173,7 @@
         "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
         "category": "popular",
         "price": 44.99,
-        "avalable-seats": 34
+        "avalable_seats": 34
     },
     {
         "course_name": "Documentary Photography: Telling Stories through Images",
@@ -184,7 +184,7 @@
         "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
         "category": "popular",
         "price": 59.99,
-        "avalable-seats": 9
+        "avalable_seats": 9
     },
     {
         "course_name": "Mobile Photography: Mastering Smartphone Cameras",
@@ -195,7 +195,7 @@
         "instructor_img": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/3115.png",
         "category": "popular",
         "price": 25.99,
-        "avalable-seats": 0
+        "avalable_seats": 0
     },
     {
         "course_name": "Wildlife Photography Expedition",
@@ -206,7 +206,7 @@
         "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
         "category": "popular",
         "price": 27.99,
-        "avalable-seats": 65
+        "avalable_seats": 65
     },
     {
         "course_name": "Artistic Photography: Exploring Creative Vision",
@@ -217,6 +217,6 @@
         "instructor_img": "https://www.howtobearedhead.com/wp-content/uploads/2016/10/redheaded_beard_.jpg",
         "category": "popular",
         "price": 22.99,
-        "avalable-seats": 87
+        "avalable_seats": 87
     }
 ]
