@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
     const navOptions = <>
         <NavLink  className="p-3 font-semibold text-black" to=''>Home</NavLink>
-        <NavLink  className="p-3 font-semibold text-black" to=''>Instructors</NavLink>
+        <NavLink  className="p-3 font-semibold text-black" to='/instructors'>Instructors</NavLink>
         <NavLink  className="p-3 font-semibold text-black" to='/allClasses'>Classes</NavLink>
         <NavLink  className="p-3 font-semibold text-black" to=''>Dashboard</NavLink>
 

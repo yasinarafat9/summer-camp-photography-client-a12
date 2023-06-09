@@ -5,9 +5,9 @@ const AllClasses = () => {
     const [classes] = useClasses();
 
     return (
-        <div className='my-5 mx-auto'>
-            <div className='my-5'>
-                <p>{classes.length}</p>
+        <div className=' mx-auto'>
+            <div className=''>
+
                 {
                     classes.map(course => <div
                         key={course._id}
