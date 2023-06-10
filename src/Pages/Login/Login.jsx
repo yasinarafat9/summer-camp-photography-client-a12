@@ -2,11 +2,13 @@ import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
+import { useState } from "react";
 
 
 const Login = () => {
 
     const {signIn} = useContext(AuthContext);
+    const [error ,setError] = useState();
 
     const handleLogin = event =>{
         event.preventDefault();
@@ -28,6 +30,12 @@ const Login = () => {
                 }
             });
         })
+        .catch((error) => {
+           
+            const errorMessage = error.message;
+            setError(errorMessage)
+          });
+        
     }
 
 
@@ -61,6 +69,7 @@ const Login = () => {
                                     </label>
                                 </div>
                                 <div className="form-control mt-6">
+                                    
                                     <button  type="submit" value="Login" className="btn-green">Login</button>
                                 </div>
                                 <div className="text-center">

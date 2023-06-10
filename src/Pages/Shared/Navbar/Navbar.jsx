@@ -1,13 +1,35 @@
 import { NavLink } from "react-router-dom";
 import './Navbar.css'
+import { useContext } from "react";
+import { AuthContext } from "../../../providers/AuthProvider";
 
 const Navbar = () => {
+
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then(() => { })
+            .catch(error => console.log(error));
+    }
+
     const navOptions = <>
-        <NavLink  className="p-3 font-semibold text-black" to=''>Home</NavLink>
-        <NavLink  className="p-3 font-semibold text-black" to='/instructors'>Instructors</NavLink>
-        <NavLink  className="p-3 font-semibold text-black" to='/allClasses'>Classes</NavLink>
-        <NavLink  className="p-3 font-semibold text-black" to=''>Dashboard</NavLink>
-        <NavLink  className="p-3 font-semibold text-black" to='/login'>Login</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to=''>Home</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/instructors'>Instructors</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/allClasses'>Classes</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/testPrivetPage'>private</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/dashboard'>Dashboard</NavLink>
+        {
+            user ? <>
+                {/* <p>{user.displayName}</p>
+                <img src={user.photoURL} alt="" /> */}
+                <button onClick={handleLogOut} className="p-3 font-semibold text-black" >Log Out</button>
+            </> :
+                <>
+                    <NavLink className="p-3 font-semibold text-black" to='/login'>Login</NavLink>
+                </>
+        }
+
 
     </>
 
@@ -22,7 +44,7 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             {navOptions}
-                            
+
                         </ul>
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">Summer Camp Photography</a>
