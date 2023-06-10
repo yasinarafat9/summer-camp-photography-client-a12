@@ -1,13 +1,14 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import Swal from "sweetalert2";
 
 
 const Login = () => {
 
     const {signIn} = useContext(AuthContext);
 
-    const hnadleLogin = event =>{
+    const handleLogin = event =>{
         event.preventDefault();
         const form = event.target;
         const email = form.email.value;
@@ -17,6 +18,15 @@ const Login = () => {
         .then(result => {
             const user = result.user;
             console.log(user)
+            Swal.fire({
+                title: 'User Login Successful.',
+                showClass: {
+                    popup: 'animate__animated animate__fadeInDown'
+                },
+                hideClass: {
+                    popup: 'animate__animated animate__fadeOutUp'
+                }
+            });
         })
     }
 
@@ -34,7 +44,7 @@ const Login = () => {
                         </div>
                         <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
 
-                            <form onSubmit={hnadleLogin} className="card-body">
+                            <form onSubmit={handleLogin} className="card-body">
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Email</span>
@@ -51,10 +61,10 @@ const Login = () => {
                                     </label>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button value='submit' className="btn-green">Login</button>
+                                    <button  type="submit" value="Login" className="btn-green">Login</button>
                                 </div>
                                 <div className="text-center">
-                                    <small>New Here?<NavLink className='btn-link' to='/register'>Please Reginster</NavLink></small>
+                                    <small>New Here?<NavLink className='btn-link' to='/register'>Please Register</NavLink></small>
                                 </div>
                             </form>
                         </div>
