@@ -15,13 +15,13 @@ const AllClasses = () => {
         console.log(course);
         if(user && user.email){
             // const course ={course, _id};
-            const myClass = {course}
+            const myClass = {...course}
             fetch('http://localhost:5000/myClasses', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
                 },
-                body: JSON.stringify({myClass})
+                body: JSON.stringify(myClass)
             })
             .then(res => res.json())
             .then(data => {
