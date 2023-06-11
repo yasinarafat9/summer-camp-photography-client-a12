@@ -14,14 +14,14 @@ const Dashboard = () => {
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 h-full bg-black opacity-50 text-white">
+                    <ul className="menu p-4 w-80 h-full bg-stone-400">
                         {/* Sidebar content here */}
                         <NavLink className=' font-semibold text-lg' to='/dashboard/myclass'>My Selected Classes</NavLink>
-                        <NavLink className=' font-semibold text-lg' to='/dashboard/myclass'>My Enrolled Classes</NavLink>
+                        <NavLink className=' font-semibold text-lg' to='/'>My Enrolled Classes</NavLink>
                         <br />
                         <hr />
                         <br />
-                        <NavLink className="font-semibold text-lg" to=''>Home</NavLink>
+                        <NavLink className="font-semibold text-lg" to='/'>Home</NavLink>
                         <NavLink className="font-semibold text-lg" to='/instructors'>Instructors</NavLink>
                         <NavLink className="font-semibold text-lg" to='/allClasses'>Classes</NavLink>
                     </ul>

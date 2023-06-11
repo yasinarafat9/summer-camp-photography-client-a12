@@ -36,3 +36,7 @@
     height: 300px;
     object-fit: cover;
 }
+
+.active {
+    color: rgb(0, 72, 255);
+  }
