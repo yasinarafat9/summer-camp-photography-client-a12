@@ -3,6 +3,7 @@ import { useContext } from 'react';
 import { NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
+import SocialLogin from '../Shared/SocialLogin/SocialLogin';
 
 const Register = () => {
 
@@ -54,25 +55,25 @@ const Register = () => {
                             <form onSubmit={handleRegister} className="card-body">
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Name</span>
+                                        {/* <span className="label-text">Name</span> */}
                                     </label>
                                     <input type="text" name='name' placeholder="Name" className="input input-bordered" />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Email</span>
+                                        {/* <span className="label-text">Email</span> */}
                                     </label>
                                     <input type="email" name='email' placeholder="email" className="input input-bordered" />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Password</span>
+                                        {/* <span className="label-text">Password</span> */}
                                     </label>
                                     <input type="password" name='password' placeholder="Password" className="input input-bordered" />
                                 </div>
                                 <div className="form-control d-flex">
                                     <label className="label">
-                                        <span className="label-text">Retype Password</span>
+                                        {/* <span className="label-text">Retype Password</span> */}
                                     </label>
                                     <input type="password" name='retypePassword' placeholder="Retype password" className="input input-bordered" />
                                     <label className="label">
@@ -81,7 +82,7 @@ const Register = () => {
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Photo Url</span>
+                                        {/* <span className="label-text">Photo Url</span> */}
                                     </label>
                                     <input type="text" name='photoUrl' placeholder="Photo Url" className="input input-bordered" />
                                 </div>
@@ -89,8 +90,9 @@ const Register = () => {
                                     <button type="submit" value="register" className="btn-green">Register</button>
                                 </div>
                                 <div className="text-center">
-                                    <small>Already Haver an Account?<NavLink className='btn-link' to='/login'>Please Log In</NavLink></small>
+                                    <p>Already Haver an Account?<NavLink className='btn-link' to='/login'>Please Log In</NavLink></p>
                                 </div>
+                                <SocialLogin></SocialLogin>
                             </form>
                         </div>
                     </div>

@@ -3,6 +3,7 @@ import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import Swal from "sweetalert2";
 import { useState } from "react";
+import SocialLogin from "../Shared/SocialLogin/SocialLogin";
 
 
 const Login = () => {
@@ -81,6 +82,7 @@ const Login = () => {
                                 <div className="text-center">
                                     <small>New Here?<NavLink className='btn-link' to='/register'>Please Register</NavLink></small>
                                 </div>
+                                <SocialLogin></SocialLogin>
                             </form>
                         </div>
                     </div>
