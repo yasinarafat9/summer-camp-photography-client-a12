@@ -20,12 +20,27 @@ const Register = () => {
         const email = form.email.value;
         const password = form.password.value;
         const retypePassword = form.retypePassword.value;
-        const photoUrl = form.photoUrl.value;
-        console.log(name, email, password, retypePassword, photoUrl);
+        const photoURL = form.photoURL.value;
+        console.log(name, email, password, retypePassword, photoURL);
         createUser(email, password)
         .then(result => {
             const user = result.user;
             console.log(user)
+            
+            const loggedInUser = result.user;
+            console.log(loggedInUser);
+            const saveUser = { name: loggedInUser.displayName, email: loggedInUser.email, photoURL: loggedInUser.photoURL }
+            fetch('http://localhost:5000/users', {
+                method: 'POST',
+                headers: {
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(saveUser)
+            })
+                .then(res => res.json())
+                .then(() => {
+                    navigate(from, { replace: true });
+                })
             Swal.fire({
                 title: 'User Registration Successful.',
                 showClass: {
@@ -84,7 +99,7 @@ const Register = () => {
                                     <label className="label">
                                         {/* <span className="label-text">Photo Url</span> */}
                                     </label>
-                                    <input type="text" name='photoUrl' placeholder="Photo Url" className="input input-bordered" />
+                                    <input type="text" name='photoURL' placeholder="Photo Url" className="input input-bordered" />
                                 </div>
                                 <div className="form-control mt-6">
                                     <button type="submit" value="register" className="btn-green">Register</button>

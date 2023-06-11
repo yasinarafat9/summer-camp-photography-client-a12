@@ -17,8 +17,7 @@ const Navbar = () => {
         <NavLink className="p-3 font-semibold text-black" to=''>Home</NavLink>
         <NavLink className="p-3 font-semibold text-black" to='/instructors'>Instructors</NavLink>
         <NavLink className="p-3 font-semibold text-black" to='/allClasses'>Classes</NavLink>
-        <NavLink className="p-3 font-semibold text-black" to='/testPrivetPage'>private</NavLink>
-        <NavLink className="p-3 font-semibold text-black" to='/dashboard'>Dashboard</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/dashboard/myclass'>Dashboard</NavLink>
         {
             user ? <>
                 {/* <p>{user.displayName}</p>
