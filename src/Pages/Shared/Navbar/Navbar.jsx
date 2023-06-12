@@ -2,6 +2,7 @@ import { NavLink } from "react-router-dom";
 import './Navbar.css'
 import { useContext } from "react";
 import { AuthContext } from "../../../providers/AuthProvider";
+import MyClass from "../../Dashboard/MyClass/MyClass";
 
 const Navbar = () => {
 
@@ -17,7 +18,11 @@ const Navbar = () => {
         <NavLink className="p-3 font-semibold text-black" to=''>Home</NavLink>
         <NavLink className="p-3 font-semibold text-black" to='/instructors'>Instructors</NavLink>
         <NavLink className="p-3 font-semibold text-black" to='/allClasses'>Classes</NavLink>
-        <NavLink className="p-3 font-semibold text-black" to='/dashboard/myclass'>Dashboard</NavLink>
+        <NavLink className="p-3 font-semibold text-black" to='/dashboard/myclass'>Dashboard
+            <button >
+                <div className="badge badge-secondary">{+MyClass?.length || 0}</div>
+            </button>
+        </NavLink>
         {
             user ? <>
                 {/* <p>{user.displayName}</p>

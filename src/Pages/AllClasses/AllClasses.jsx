@@ -4,19 +4,21 @@ import useClasses from '../../hooks/useClassses';
 import { AuthContext } from '../../providers/AuthProvider';
 import Swal from 'sweetalert2';
 import { useLocation, useNavigate } from 'react-router-dom';
+import useMyClass from '../../hooks/useMyCLass';
 
 const AllClasses = () => {
     const [classes] = useClasses();
     const {user} = useContext(AuthContext)
     const navigate = useNavigate();
     const location = useLocation();
+    const [, refetch] = useMyClass();
 
     const handleSelect = course =>{
         console.log(course);
         if(user && user.email){
             // const course ={course, _id};
             const myClass = {...course}
-            fetch('http://localhost:5000/myClasses', {
+            fetch('https://summer-camp-photography-server-greatattack1971-gmailcom.vercel.app/myClasses', {
                 method: 'POST',
                 headers: {
                     'content-type': 'application/json'
@@ -26,6 +28,7 @@ const AllClasses = () => {
             .then(res => res.json())
             .then(data => {
                 if(data.insertedId){
+                    refetch();
                     Swal.fire({
                         title: 'Added Successfully.',
                         showClass: {
