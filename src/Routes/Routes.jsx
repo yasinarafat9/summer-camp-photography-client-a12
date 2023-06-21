@@ -11,6 +11,7 @@ import TestPrivatePage from "../Pages/TestPrivetPage/TestPrivatePage";
 import PrivateRoute from "./PrivateRoute";
 import Dashboard from "../Layout/Dashboard";
 import MyClass from "../Pages/Dashboard/MyClass/MyClass";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
  export const router = createBrowserRouter([
     {
@@ -58,5 +59,9 @@ import MyClass from "../Pages/Dashboard/MyClass/MyClass";
           element: <MyClass></MyClass>
         }
       ]
+    },
+    {
+      path: '*',
+      element: <ErrorPage></ErrorPage>
     }  
   ]);
